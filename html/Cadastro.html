@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="..\CSS\estilo.css">
+    <title>
+        Cadastro
+    </title>
+</head>
+
+<body>
+    <header>
+        <img style="border-bottom:3px solid #FFFFFF;" class="ImgLogo" src="../img/ResfGlobLogoDeitado.png">
+        <adress class="ender">
+            Av. Novaya Zemlya, 1870<br>
+            cel:(21) 98765-4321<br>
+            <a href="mailto:contato@resfriglob.com.br">contato@resfriglob.com.br</a>
+        </adress>
+    </header>
+    <nav>
+        <ul class="lista1">
+            <li><a target="_blank" href="RefriGlobal.html">Apresenta&ccedil;&atilde;o</a></li>
+            <li><a target="_blank" href="Tipos.html">Tipos</a></li>
+            <li><a target="_blank" href="Estoque.html">Estoque</a></li>
+            <li><a target="_blank" href="Cadastro.html">Cadastro</a></li>
+            <li><a target="_blank" href="Compras.html">Compras</a></li>
+        </ul>
+    </nav>
+    <section>
+        <br><br>
+        <form class="formBox">
+            <fieldset class="FSLinhaInteira">
+                Cadastro
+                <fieldset>
+                    <legend>identificação</legend>
+                    <fieldset>
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" name="email"></input><br>
+                    </fieldset>
+                    <fieldset>
+                        <label for="senha">Senha: </label>
+                        <input type="password" id="senha" name="senha" size="9"></input>
+                        <label for="conf">confirme: </label>
+                        <input type="password" id="conf" name="conf" size="9"></input>
+                    </fieldset>
+                </fieldset>
+            </fieldset>
+
+            <fieldset >
+                <legend> Dados pessoais </legend>
+                <fieldset class="FSLinhaInteira">
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="nome" size="20"> <br>
+                    <label for="ender">Endere&ccedil;o: </label>
+                    <textarea type="text" name="endereço"></textarea><br>
+                </fieldset>
+                <fieldset>
+                    <label for="telefone"> Telefone: </label>
+                    <input type="text" name="telefone" size="12">
+                    <label for="Celular"> Celular: </label>
+                    <input type="text" name="Celular" size="12">
+                </fieldset>
+                <fieldset class="FSColEsq">
+                    <legend>Nascimento: </legend>
+                    <input type="number" min="1" max="31" step="1" class="numDD">/
+                    <input type="number" min="1" max="12" step="1" class="numDD">/
+                    <input type="number" min="1922" max="2004" class="numQD">
+                </fieldset>
+
+                <fieldset class="FSColDir">
+                    <legend> Sexo: </legend>
+                    <div>
+                        <input type="radio" name="sexo" value="masc"> Masc
+                        <input type="radio" name="sexo" value="Fem"> Fem
+                        <input type="radio" name="sexo" value="outro"> outro
+                    </div>
+                </fieldset>
+
+                <button onclick="cadastrar" class="botoes"> cadastrar</button>
+                <button onclick="limpar" class="botoes">limpar</button>
+            </fieldset>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

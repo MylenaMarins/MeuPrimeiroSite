@@ -1,0 +1,170 @@
+/*NÚMERO 2*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
+
+header {
+   display: block;
+   margin-bottom: 1px;
+}
+
+.imgLogo {
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+}
+
+.ender {
+   float: right;
+   text-align: right;
+   line-height: 140%;
+   font-size: 15px;
+   font-family: ubuntu, 'karla', Verdana;
+}
+
+nav {
+   display: block;
+   width: 20%;
+   float: left;
+}
+
+.lista1 {
+   color: #FFFFFF;
+   line-height: 230%;
+   margin-top: 40px;
+   list-style-image: url('../img/BrilhoMark.png');
+   font-size: 20px;
+   font-family:Ubuntu, 'karla', Verdana ;
+}
+
+.apres {
+   text-align: center;
+   font-size: 18px;
+}
+
+body {
+   background-color: #4488AA;
+   color: #99EEEE;
+   font-size: 16px;
+   font-family: libertion, Lucida Bright, 'Stoke';
+}
+
+section {
+   display: block;
+   width: 70%;
+   float: right;
+}
+
+a:link {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #99EEEE;
+}
+
+/*Número 3*/
+
+.Listatipos {
+   color: #FFFFFF;
+   padding: 10px 10px 10px 50px;
+   line-height: 180%;
+}
+
+.tabInfo {
+   border: 3px solid #226699;
+   border-collapse: collapse;
+   padding: 6px 12px 6px 12px;
+   background-color: #FFFFFF;
+   margin-top: 6px;
+   color:#000066;
+   font-size: 15px;
+   font-family: Ubuntu, 'karla', Verdana;
+   width: 50% ;
+   text-align: center;
+}
+.lista2{
+   list-style-type:disc ;
+   color:#99FFFF ;
+}
+.linTH {
+   color:#FFFFFF;
+   background-color: #004499;
+   vertical-align: middle;
+   text-align: center;
+}
+/*questão 4*/
+.colTH{
+color:#FFFFFF;
+background-color: #0066DD;
+text-align: left;
+}
+
+.preco{
+color: #CC0000;
+}
+/*questão 5*/
+.formBox{
+   width: 520px;
+   padding: 10px;
+   margin-top: 10px;
+   text-align: center;
+   background-color: #0066DD;
+   border: 3px solid #000055;
+   font-size: 16px;
+   font-family: 'Karla',verdana, Ubuntu;
+}
+.FSLinhaInteira{
+   color: white;
+   width: 490px;
+   text-align: left;
+}
+.FSColEsq{
+   width: 210px;
+   text-align: center;
+   float: left;
+}
+.FSColDir{
+   width: 210px;
+   text-align: center;
+   float:right;
+}
+.LinhaForm{
+   margin: 0px;
+   height: 30px;
+   padding: 6px 3px 0px 3px;
+}
+.ColEsq{
+   width: 180px;
+   float: left;
+   display: block;
+}
+.ColDir{
+   width: 180px;
+   float: right;
+   display: block;
+}
+.LabBox{
+   width: 80px;
+   float: left;
+   display: block;
+}
+.botoes{
+   text-align: right;
+   margin: 20px 10px 0px 10px;
+}
+.InpBoxGnd{
+   width: 384px;
+   float: right;
+   display: block;   
+}
+.InpBoxMed{
+   width: 80px;
+   float: right;
+   display: block;
+}
+.numDD{
+   width: 35px;
+}
+.numQD{
+   width: 50px;
+}

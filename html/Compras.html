@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="..\CSS\estilo.css">
+    <title>
+        Cadastro
+    </title>
+</head>
+
+<body>
+    <header>
+        <img style="border-bottom:3px solid #FFFFFF;" class="ImgLogo" src="../img/ResfGlobLogoDeitado.png">
+        <adress class="ender">
+            Av. Novaya Zemlya, 1870<br>
+            cel:(21) 98765-4321<br>
+            <a href="mailto:contato@resfriglob.com.br">contato@resfriglob.com.br</a>
+        </adress>
+    </header>
+    <nav>
+        <ul class="lista1">
+            <li><a target="_blank" href="RefriGlobal.html">Apresenta&ccedil;&atilde;o</a></li>
+            <li><a target="_blank" href="Tipos.html">Tipos</a></li>
+            <li><a target="_blank" href="Estoque.html">Estoque</a></li>
+            <li><a target="_blank" href="Cadastro.html">Cadastro</a></li>
+            <li><a target="_blank" href="Compras.html">Compras</a></li>
+        </ul>
+    </nav>
+    <section>
+        <br><br>
+        <form class="formBox">
+            <p style="text-align: center;">Compras</p>
+            <fieldset>
+                <fieldset>
+                    <legend>identifica&ccedil;o</legend>
+                    <label name="email" value="email"> E-mail: </label>
+                    <input type="email">
+                    <label name="senha" value="senha"> Senha: </label>
+                    <input type="text">
+                    <p> Se Você ainda não tem cadastro clique <a src="../html/Cadastro.html"> aqui!</a> </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lista de compras</legend>
+                    <label name="produtos" value="produtos"> Produtos: </label>
+                    <select type="text">
+                        <option> </option>
+                    </select>
+                    <button type="button" onclick="Incluir">Incluir</button>
+                    <textarea></textarea>
+                    <label name="valor" value="value"> Valor: R$ </label>
+                    <input type="number">
+                </fieldset>
+                <fieldset>
+                    <legend>Dados do Cartão</legend>
+                    <label name="numero" value="numero"> Número: </label>
+                    <input type="number" size="2"><input type="number" size="2"><input Type="number" size="2"><input
+                        type="number" size="2">
+                    <label for="validade"> Validade: </label>
+                    <input type="number" min="1" max="31">/
+                    <input type="number" min="1922" max="2030">
+                    <label for="number"> Parcelas</label>
+                    <input type="number" min="2" max="12">
+
+                    <fieldset>
+                        <input type="radio" name="bandeira" value="VISA"> VISA
+                        <input type="radio" name="bandeira" value="Master"> Master
+                        <input type="radio" name="bandeira" value="Elo"> Elo
+                    </fieldset>
+                </fieldset>
+
+
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
