@@ -5,3 +5,4 @@
     } else {
       window.alert("Chame um responsável para efetuar compras no site!");
     }
+
